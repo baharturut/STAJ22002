@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="icon-b">
+    <file>transfer.ico</file>
+    <file>logout.ico</file>
+    <file>menu.ico</file>
+  </qresource>
+  <qresource prefix="icon-w">
+    <file>save-w.ico</file>
+    <file>logout-w.ico</file>
+    <file>profile-w.png</file>
+    <file>clear-w.ico</file>
+    <file>send-w.ico</file>
+    <file>history-w.ico</file>
+    <file>home-w.ico</file>
+    <file>avatar-w_1.ico</file>
+    <file>menu-w.ico</file>
+    <file>square-w.ico</file>
+    <file>close-w.ico</file>
+    <file>minimize-w.ico</file>
+    <file>restore-w.ico</file>
+  </qresource>
+  <qresource prefix="img">
+    <file>gif-big.gif</file>
+    <file>gif-small.gif</file>
+    <file>200w-ezgif.com-webp-to-gif-converter.gif</file>
+    <file>profile-w.png</file>
+  </qresource>
+</RCC>

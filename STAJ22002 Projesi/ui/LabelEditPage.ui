@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Edit</class>
+ <widget class="QWidget" name="Edit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>505</width>
+    <height>241</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>505</width>
+    <height>241</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>505</width>
+    <height>241</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Edit</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+	
+	background-color: rgb(87, 0, 130);
+}
+
+</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>150</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Verdana&quot;;
+background-color: rgb(245, 245, 255);
+</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+   <property name="centerButtons">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>54</x>
+     <y>50</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Verdana&quot;;
+background-color: rgb(245, 245, 255);
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Anxiety</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bipolar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Depression</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Personality disorder</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Stress</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Suicidal</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../icons/icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
