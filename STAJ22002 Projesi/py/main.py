@@ -184,7 +184,8 @@ class Main(QtWidgets.QMainWindow):
 
     def saveData(self):
         text = self.main.statement_textEdit.toPlainText()
-        result = self.main.result_label.text()
+        result_full = self.main.result_label.text()
+        result = result_full[8:]
 
         if text.strip():
             db_manager = DbManager(connection())
