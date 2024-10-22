@@ -103,7 +103,11 @@ class Main(QtWidgets.QMainWindow):
         if any(char.isalpha() for char in text):
             pre = self.Predict(text)
             self.main.result_label.setText(f'Result: {pre}')
-            self.main.save_pushButton.clicked.connect(self.saveData)     
+            try:
+                self.main.save_pushButton.clicked.disconnect(self.saveData) #bağlantıyı kesme işlemi
+            except TypeError:
+                pass
+            self.main.save_pushButton.clicked.connect(self.saveData)    #yeni bağlantı oluşturma işlemi.    
             
         else:
             self.main.result_label.setText("Enter a valid sentence!")
